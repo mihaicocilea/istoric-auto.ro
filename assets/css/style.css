@@ -1,0 +1,180 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  background-color: #0fa4c9;
+  padding: 0;
+}
+.navbar a {
+  color: #ffffff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.logo-text {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.logo-image {
+  font-size: 2em;
+}
+
+p {
+  font-size: 18px;
+}
+.bg-blue {
+  background-color: #eff9ff;
+}
+.btn {
+  font-weight: 550;
+}
+.btn-style {
+  border-radius: 28px !important;
+  font-size: 18px;
+  padding: 8px 28px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url("../../assets/images/banner.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+h2 {
+  font-weight: 700;
+  max-width: 500px;
+  margin: auto;
+}
+.main-section h1 {
+  font-weight: 700;
+  max-width: 500px;
+}
+.main-section p {
+  max-width: 500px;
+}
+.main-section h2 {
+  color: white;
+}
+#result {
+  color: white;
+  font-size: 18px;
+}
+.main-section input {
+  text-transform: uppercase;
+  width: 300px !important;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.main-section label {
+  color: white;
+  font-size: 18px;
+}
+
+hr {
+  width: 5%;
+  background-color: #0fa4c9;
+  height: 1px;
+}
+
+.img-content {
+  max-width: 100%;
+}
+
+.review-text {
+  font-size: 14px;
+  font-style: oblique;
+  color: grey;
+  max-width: 300px;
+}
+.review-styled-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars {
+  color: #fad617;
+}
+
+footer {
+  background-color: #0fa4c9;
+}
+
+/* Stil pentru dropdown */
+.dropdown {
+  display: none;
+}
+
+.question {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+  font-size: 18px;
+}
+
+.answer {
+  display: none;
+}
+
+.show-answer .answer {
+  display: block;
+  padding: 18px;
+}
+.txt-info {
+  margin-top: 18px;
+}
+
+/* faq */
+.faq span {
+  padding: 18px;
+  background: #eff9ff;
+  color: #212529;
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: block;
+}
+
+.faq span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+/* --- */
+.btn-warning {
+  background-color: #fad617 !important;
+}
+
+@media (max-width: 768px) {
+  .mobile-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .txt-info {
+    max-width: 300px;
+    text-align: center;
+    margin: 28px auto;
+  }
+  .btn-style {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .width-100 {
+    width: 100%;
+  }
+  .main-section h1 {
+    font-size: 2.1rem;
+  }
+}
